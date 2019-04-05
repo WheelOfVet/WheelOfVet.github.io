@@ -332,7 +332,8 @@ window.onload = function(){
 				$("#mainnetModal").modal("show");
 			}
 		}
-	} else{alert("no connex")
+	} else{
+		location.href = 'https://env.vechain.org/r/#' + encodeURIComponent(location.href)
 	}
 }
 
